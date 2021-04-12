@@ -24,6 +24,16 @@ export default (state, action) => {
                     "to": "/mytable",
                     "name": "资产负债表"
                 },
+                {
+                    "key": "4",
+                    "to": "/overview",
+                    "name": "overview"
+                },{
+                    "key": "5",
+                    "to": "/magnifier",
+                    "name": "magnifier"
+
+                }
             ]
         },
         {

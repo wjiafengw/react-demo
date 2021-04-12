@@ -215,28 +215,6 @@ class analyseData extends React.Component {
                 "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTRENEW_IND\n" +
                 "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTLON_LEVEL4_CLASS_CD\n" +
                 "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTIS_INCLUSIVE_FINANCIAL\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTCUST_HIERARCHY\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTCLPM_PROD_NO\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTIS_XMBANK\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTIS_CREDIT\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTSUBJECT_NO\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTOVDUE_PRIN_SUBJ\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTCONT_NO\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTIS_STRATEGIC\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTIS_SOE\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTAGE_GROUP\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTIS_GROUP_CUST\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTIS_FINANCIAL\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTIS_GO_FLG\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTIS_TAI_MERCHANT\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTINET_LOAN_TYPE\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTLOAN_TYPE\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTACCRUAL_BASIS_CD\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTAMRT_TYPE_CD\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTCUST_NO\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTADJUSTABLE_TYPE_CD\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTCUST_TYPE\n" +
-                "管理会计_空值检查_贷款信息M_MAT_LOAN_ACCTIS_GOV_FIN\n" +
                 "管理会计_空值检查_科目信息M_MAT_SUBJ_INFOSUPER_SUBJECT_NO\n" +
                 "管理会计_空值检查_逾期明细表M_MAT_OVERDUECLPM_PROD_NO\n" +
                 "管理会计_空值检查_逾期明细表M_MAT_OVERDUEDIR_INDUS_CD\n" +

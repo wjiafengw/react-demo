@@ -6,6 +6,7 @@ import TestLogin from './component/TestLogin';
 /*import {createBrowserHistory} from "history";*/
 import AnalyseData from "./component/analyseData";
 import Mytable from "./component/Mytable";
+import OverView  from  "./component/overView";
 import {
     BrowserRouter as Router,
     Switch,
@@ -16,6 +17,7 @@ import {
 import {Button, Form, Input, Checkbox, Layout, Menu, Breadcrumb, Row, Col, Dropdown, message} from 'antd';
 import {DownOutlined} from '@ant-design/icons';
 import axios from "axios";
+import Magnifier from "./component/Magnifier";
 
 const {SubMenu} = Menu;
 const {Header, Content, Footer, Sider} = Layout;
@@ -119,6 +121,8 @@ class App extends React.Component {
                                                 <Route path="/analyse" exact component={AnalyseData}/>
                                                 <Route path="/testlogin" component={TestLogin}/>
                                                 <Route path="/mytable" component={Mytable}/>
+                                                <Route path="/overview" component={OverView}/>
+                                                <Route path="/magnifier" component={Magnifier}/>
                                             </Switch>
                                         </div>
                                     </Col>
