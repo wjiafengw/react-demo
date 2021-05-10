@@ -112,11 +112,11 @@ class ExampleComponent extends React.Component {
         //webpack --config ./build/webpack.dev.conf.js
         ///D:\Users\xmb-user\WebstormProjects\untitled12\react-demo\dist\static\img\test004.22ac09d.jpg
         //public下
-        img.src = "test005.png";
+        img.src = "test004.jpg";
         //5. 确定Image加载完毕后将Image画到canvas上
         img.onload = () => {
-           /* ctx.drawImage(img, 0, 0, 2800, 1760, 0, 0, 1324, 832);*/
-            ctx.drawImage(img, 0, 0);
+            ctx.drawImage(img, 0, 0, 2800, 1760, 0, 0, 1324, 832);
+          /*  ctx.drawImage(img, 0, 0);*/
             //  console.log(img.width);
             this.setState({scale_width: 1324 * 3})
             console.log("onload")
@@ -142,7 +142,7 @@ class ExampleComponent extends React.Component {
                     onMouseDown={this.handleMouseDown}
                     /*   style={{'position':'absolute'}}>*/
                 >
-                    <canvas id="canvas" width="426" height="144">对不起，你的浏览器不支持Canvas</canvas>
+                    <canvas id="canvas" width="1324" height="832">对不起，你的浏览器不支持Canvas</canvas>
                     <canvas id="color" width="160" height="160" style={{
                         position: "absolute",
                         left: left - 80,
@@ -173,7 +173,7 @@ class ExampleComponent extends React.Component {
                         <img
                             alt=''
                            /* src={url}*/
-                            src="test005.png"
+                            src="test004.jpg"
                             style={{
                                 width: scale_width,
                                 position: "absolute",
