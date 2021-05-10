@@ -127,6 +127,8 @@ module.exports = {
 const path = require('path')
 const config = require('../config')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const devMode = process.env.NODE_ENV !== 'production';
+
 
 /*const vueLoaderConfig = require('./vue-loader.conf')*/
 
@@ -198,13 +200,13 @@ module.exports = {
                 include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
             },
             {
-                test: /\.(sass|scss|css)$/,
+                test: /\.(sa|sc|c)ss$/,
                 use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader',
-                    'sass-loader',
+                  devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
+                  'css-loader',
+                  'sass-loader',
                 ],
-            },
+              },
             //静态图片过url-loader,将图片等二进制文件转化成url地址
             // //<img :src='url'>
             {

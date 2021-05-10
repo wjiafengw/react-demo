@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {createStore} from 'redux'
-import reportWebVitals from './reportWebVitals';
 import leftMenuReducer from './reducers/leftMenuReducer'
 import {
     BrowserRouter as Router,
@@ -13,6 +12,8 @@ import {
 } from "react-router-dom";
 import Login from "./component/login";
 import Signup from "./component/signup";
+import 'antd/dist/antd.css';
+
 
 
 const store = createStore(leftMenuReducer)
@@ -34,4 +35,3 @@ const render = () => ReactDOM.render(
 )
 render();
 store.subscribe(render)
-reportWebVitals();

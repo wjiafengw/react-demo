@@ -50,7 +50,6 @@ class login extends React.Component {
             }, function (error) {
                 return Promise.reject(error);
             });*/
-
         let loginData = {"username": values.username, "password": values.password};
         console.log('Success:', values);
         //跨域请求中携带cookie

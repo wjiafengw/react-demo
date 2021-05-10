@@ -43,8 +43,6 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
 */
 
 'use strict'
-require('./check-versions')()
-
 process.env.NODE_ENV = 'production'
 
 const ora = require('ora')
